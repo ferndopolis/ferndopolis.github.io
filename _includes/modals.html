@@ -5,13 +5,21 @@
             <div class="close-modal" data-dismiss="modal">
                 <i class="fa fa-times fa-2x"></i>
             </div>
+            <div class="portfolio-modal-header">
+              <h2>{{ post.title }}</h2>
+              <hr class="star-primary">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% if post.images %}
+                              <div class="slider">
+                                {% for img in post.images %}
+                                   <div><img src="img/portfolio/{{ img }}" ></div>
+                                {% endfor %}
+                              </div>
+                            {% endif %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

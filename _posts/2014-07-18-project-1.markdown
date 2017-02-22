@@ -3,6 +3,9 @@ layout: default
 modal-id: 1
 date: 2017-02-21
 img: sesh.png
+images:
+  - sesh-1.png
+  - sesh-2.png
 alt: image-alt
 site-link: //www.sesh.io
 title: Sesh

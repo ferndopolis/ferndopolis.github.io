@@ -417,9 +417,15 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+.portfolio-modal-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 15px;
+}
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 140px 0 100px 0;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -473,4 +479,10 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.slider img {
+  height: 300px;
+  width: auto;
+  margin: 0 auto;
 }

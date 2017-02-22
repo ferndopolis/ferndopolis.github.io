@@ -35,3 +35,17 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(document).ready(function(){
+  $('.slider').slick({
+    // centerMode: true,
+    // variableWidth: true
+    dots: true,
+    // infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});
