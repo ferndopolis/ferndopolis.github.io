@@ -202,6 +202,14 @@ section.success {
     margin: 0 0 15px;
 }
 
+
+#portfolio .portfolio-item .img-cont {
+
+}
+
+#portfolio .portfolio-item img {
+}
+
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
