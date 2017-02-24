@@ -39,7 +39,6 @@ $('.navbar-collapse ul li a').click(function() {
 $(document).ready(function(){
   $('.slider').slick({
     // centerMode: true,
-    // variableWidth: true
     dots: true,
     // infinite: true,
     speed: 800,

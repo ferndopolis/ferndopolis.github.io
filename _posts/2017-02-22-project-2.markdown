@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 2
+date: 2017-02-22
+img: stadio.png
+alt: image-alt
+images:
+  - stadio-3.png
+  - stadio-1.png
+  - stadio-2.png
+site-link: //www.stad.io
+project-date: March 2015 - December 2015
+client: Stadio
+title: Stadio
+category: Fullstack Developer
+tech: meteor, python, raspberry pi, stripe, d3
+description: Worked with team of four on a captive portal device prototyped on a Raspberry Pi and managed thru a web ui. Features I accomplished was building the subscription system using stripe, enhancing the analytics data load time for the manager ui, along with adding feature for the analytics page based on user feedback. In the three month sprint period team was able to deliver a more reliable product for initial entry into market.
+---

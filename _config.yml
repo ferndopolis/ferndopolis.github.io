@@ -2,9 +2,9 @@
 title: Fernando Marcheselli
 email: fmarcheselli@gmail.com.com
 url: https://ferndopolis.github.io
-description: "Freelance web developer."
-skills: "Web Developer - Full Stack - Javascript - Python - Ruby"
-meta_author: Marcheselli Fernando
+description: "Freelance web developer"
+skills: "Fullstack Web Developer"
+meta_author: Fernando Marcheselli
 
 # Google webmaster tools
 # google_verify:
@@ -20,7 +20,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -31,26 +31,23 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Fernando Marcheselli
   location: Location
-  social: Around the Web
+  social: Contact
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: linkedin
+    url: //www.linkedin.com/in/fernandomarcheselli/
   - title: github
     url: //github.com/ferndopolis
+  - title: envelope
+    url: fmarcheselli@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Los Angeles, California
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

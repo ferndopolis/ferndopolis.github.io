@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 3
+date: 2017-02-21
+img: jwp.png
+alt: image-alt
+images:
+  - jwp-1.png
+  - jwp-2.png
+  - jwp-3.png
+  - jwp-4.png
+site-link: //www.jwpictures.com
+project-date: September 2015 - December 2015
+client: Josh White Pictures
+title: Josh White Pictures
+category: Fullstack Developer
+tech: react, redux, django
+description: Built for my client Art Design Office this is my most ambitious artist site which was built solely on react with all hand-coded components with django backend serve JSON. The aim was make an artist which could handle large res images while still maintain good page speed. This was accomplished with using image thumbnail library and serving only the specific images required. Along with using redux to cache images site wide so that back a forth navigation would reduce calls to the server.
+---

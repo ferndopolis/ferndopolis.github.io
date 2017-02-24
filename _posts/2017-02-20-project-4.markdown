@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 4
+date: 2017-02-20
+img: arcana.png
+images:
+  - arcana-1.png
+  - arcana-2.png
+  - arcana-3.png
+  - arcana-4.png
+alt: image-alt
+site-link: //www.arcanabooks.com
+project-date: December 2014 - January 2015
+client: Arcana Books on the Arts
+title: Arcana Books on the Arts
+tech: django, satchless, python
+category: Backend Web Developer
+description: For Art Design Office I initialize the django backend for their client Arcana an e-commerce artist book store. Created scripts to pull book inventory from FileMakerPro and map to postgres database, tied the database to the views created by a frontend dev. Other features built include the initial shopping cart and payment system using python satchless library.
+---

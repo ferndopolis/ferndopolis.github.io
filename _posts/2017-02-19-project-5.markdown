@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 5
+date: 2017-02-19
+img: ado.png
+images:
+  - ado-1.png
+  - ado-2.png
+  - ado-3.png
+  - ado-4.png
+  - ado-5.png
+alt: image-alt
+site-link: //www.artdesignoffice.com
+project-date: March 2013 - December 2013
+client: Art Design Office
+title: Art Design Office
+tech: django, javascript, angular
+category: Fullstack Developer
+description: Working with Art Design Office I contributed to these artist sites using django. <a target="_blank" href="//www.kimmccarty.net">Kim McCarty</a> my first django project. <a target="_blank" href="//www.josephkohnke.com/">Joseph Kohnke</a> worked out a relationship with the Collection model, so that artist collections could be related as many levels deep as specified within the cms. <a target="_blank" href="//www.lindastark.net">Linda Stark</a> and <a target="_blank" href="//www.karynlovegrove.com/">Karyn Lovegrove</a> sites incorporate minimal and responsive design, which I value most in app design. For ParentPro (no longer live) I worked on the authentication and User model using angular.
+---

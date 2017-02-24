@@ -173,6 +173,15 @@ header .intro-text .skills {
     border: 0;
 }
 
+.profile-image {
+  border-radius: 35px;
+  background-color: rgb(255, 255, 255);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  height: 300px;
+}
+
 section {
     padding: 100px 0;
 }
@@ -204,8 +213,8 @@ section.success {
 
 #portfolio .portfolio-item img {
   flex-shrink:0;
-  min-width:100%;
-  min-height:100%
+  /*min-width:100%;*/
+  /*min-height:100%*/
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -422,6 +431,8 @@ footer .footer-below {
   width: 100%;
   top: 0;
   padding: 15px;
+  background-color: white;
+  z-index: 10;
 }
 
 .portfolio-modal .modal-content {
@@ -456,6 +467,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal {
+    z-index: 100;
     position: fixed;
     top: 25px;
     right: 25px;

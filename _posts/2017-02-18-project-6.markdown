@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 6
+date: 2017-02-18
+img: wlc.png
+images:
+  - wlc-1.png
+  - wlc-2.png
+alt: image-alt
+site-link: //www.wholelifechallenge.com
+project-date: March 2013 - December 2013
+client: Whole Life Challenge
+title: Whole Life Challenge
+category: Fullstack Developer
+tech: ruby, rails, rspec, heroku, shopify
+description: My first dev job, started with team of three taking existing buggy code base and prepare it for launch. My tasks included writing unit and end-to-end test, fixing the authentication process, payment system, and redesign of site.  Unfortunately I don't have any pictures of app when we worked on it but app is still in production.
+---
