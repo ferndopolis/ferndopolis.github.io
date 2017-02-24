@@ -8,11 +8,11 @@ images:
   - sesh-2.png
   - sesh-3.png
   - sesh-4.png
-  - sesh-5.png
-  - sesh-6.png
+  - sesh-15.png
+  - sesh-16.png
   - sesh-7.png
   - sesh-8.png
-  - sesh-9.png
+  - sesh-19.png
 alt: image-alt
 site-link: //www.sesh.io
 title: Sesh
