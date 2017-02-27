@@ -120,3 +120,34 @@ li:before {
   font-family: 'FontAwesome';
   font-size: .7em;
 }
+
+@media print {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    margin: 5px 0px;
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1em;
+    padding-bottom: 0;
+  }
+  .grouped-jobs {
+    margin-top: 20px
+   /*page-break-inside: avoid;*/
+  }
+  .location {
+    font-size: 1em;
+  }
+  .fm-icon {
+    font-size: 59px;
+  }
+  .contact {
+    font-size: 0.8em;
+  }
+  li, span {
+    font-size: .9em;
+  }
+
+}
