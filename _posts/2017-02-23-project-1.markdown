@@ -19,6 +19,6 @@ title: Sesh
 project-date: March 2016 - February 2017
 client: Sesh
 category: iOS/Web Lead Frontend Developer
-tech: react, react-native, redux, python, mapbox, braintree, google-places, docker, aws, douku
+tech: react, react-native, redux, python, mapbox, braintree, google-places, docker, aws, dokku
 description: Lead client-side developer for Sesh <a target="_blank" href="//sesh.io">web</a> and <a target="_blank" href="//itunes.apple.com/us/app/sesh/id1047067116?mt=8">iOS</a> apps, a music production marketplace app. Started with an iOS app which was halfway into development and launch product by September. I worked along with a backend engineer on the payment process for both clients and merchants, completed the booking process and booking calendar, along with cleaning up authentication flow, Apple push notifications, and in-app notifications, and many more. Web app was completed using the same backend.
 ---
