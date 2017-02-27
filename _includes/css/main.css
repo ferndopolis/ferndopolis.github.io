@@ -498,3 +498,7 @@ footer .footer-below {
   width: auto;
   margin: 0 auto;
 }
+
+#resume-link {
+  color: #{{ site.color.secondary }};
+}
