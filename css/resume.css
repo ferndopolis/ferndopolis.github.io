@@ -37,6 +37,14 @@ a:hover {
   flex-direction: column;
 }
 
+.name-info {
+  justify-content: center;
+}
+
+.name-info h1, .name-info h2 {
+  margin: 0;
+}
+
 .right-justify {
   align-items: flex-end;
 }
@@ -63,16 +71,6 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #75AADC
-}
-
-.header h1 {
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-.header h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
 }
 
 .location {
@@ -120,17 +118,20 @@ li:before {
   font-family: 'FontAwesome';
   font-size: .7em;
 }
+.print-only {
+  display: none;
+}
 
 @media print {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   h2 {
     margin: 5px 0px;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h3 {
-    font-size: 1em;
+    font-size: .8em;
     padding-bottom: 0;
   }
   .grouped-jobs {
@@ -141,13 +142,18 @@ li:before {
     font-size: 1em;
   }
   .fm-icon {
-    font-size: 59px;
+    font-size: 53px;
   }
   .contact {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
-  li, span {
-    font-size: .9em;
+  li, span, p {
+    font-size: .7em;
   }
-
+  .skills {
+    width: 200px;
+  }
+  .print-only {
+    display: block;
+  }
 }
